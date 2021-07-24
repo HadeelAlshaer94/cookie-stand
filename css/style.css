@@ -1,0 +1,68 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: antiquewhite;
+
+}
+
+table, tr, th, td {
+    margin: auto;
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+
+/* button */
+header{
+    /* display: flex; */
+    align-items: center;
+    justify-content: space-evenly;    
+    margin: 30px;
+    padding: 20px;
+}
+
+button {
+    display: block;
+    border: none;
+    font-size: 18px;
+    color: coral;
+    background: black;
+    padding: 10px 30px;
+    border-radius: 3px;
+    transition: 350ms;
+    cursor: pointer;
+}
+
+button:hover {
+    background: rgb(185, 176, 176);
+}
+
+header h1 {
+    display: block;
+    font-size: 40px;
+    font-weight: bold;
+    /* margin-bottom: 10px; */
+}
+
+header img{
+    display: block;
+    margin: 100px;
+
+}
+
+
+section{
+    display: block;
+    /* display: list-item; */
+    margin: 50px;
+    padding: 50px;
+
+
+}
+
+section p {    
+    /* display: inline; */
+    white-space: pre;
+    font-style: normal;
+    /* float: right; */
+    /* margin: 0px auto; */
+}
