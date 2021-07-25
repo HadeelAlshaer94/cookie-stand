@@ -9,6 +9,50 @@
   <link rel="stylesheet" type="text/css" href="css/reset.css" />
   <link rel="stylesheet" type="text/css" href="css/style.css" />
 </head>
+<!-- form css & function from W3school-->
+<style>
+  input[type=text], select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+
+  input[type=number], select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  
+  input[type=submit] {
+    width: 100%;
+    background-color: #D79771;
+    font-size: medium;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  input[type=submit]:hover {
+    background-color: #45a049;
+  }
+  
+  div {
+    border-radius: 5px;
+    background-color: #FFEBC9;
+    padding: 20px;
+  }
+  </style>
 
 <body>
   <header>
@@ -42,39 +86,41 @@
   </header>
 
   <main>
+    <h2>Add New Salmon Cookie </h2>
+<br><br>
     <div>
       <form id="form">
-        <fieldset>
-          <br><br><br><br>
-          <h2>Add New Salmon Cookies :</h2>
-          <br>
-          <label for="location">Location Name :</label>
-          <input type="text" id="location" required>
-          <br>
-          <br>
-          <label for="minCustomer">Min Customer : </label>
-          <input type="number" id="minCustomer" required>
-          <br>
-          <br>
-          <label for="maxCustomer">Max Customer : </label>
-          <input type="number" id="maxCustomer" required>
-          <br>
-          <br>
-          <label for="avgCustomer">Avg Customer : </label>
-          <input type="number" id="avgCustomer" step="0.01" required>
-          <br>
-          <br>
-          <input type="submit" id="button" value="Submit" required>
-        </fieldset>
 
+        <label for="location">location Name:</label>
+        <input type="text" id="location" name="location" placeholder="Your location..">
+<br>
+<br>
+       
+        <label for="minCustomer">Min Customer: </label>
+        <input type="number" id="minCustomer" name="minCustomer" placeholder="Type number of Min Customer..">
+
+<br>
+<br>
+        <label for="maxCustomer">Max Customer: </label>
+        <input type="number" id="maxCustomer" name="maxCustomer" placeholder="Type number of Max Customer..">
+<br>
+<br>
+
+        <label for="avgCustomer">Avg Customer:</label>
+        <input type="text" id="avgCustomer" name="avgCustomer" placeholder="Type the Avg Customer ..">
+
+      
+        <br>
+        <input type="submit" value="Submit">
       </form>
     </div>
+    <br><br><br><br><br><br> <br><br><br><br> 
     <br>
     <table id="parent"></table>
   </main>
-  <br><br><br><br><br><br> <br><br><br><br><br><br> <br><br><br><br>
+  <br><br><br><br><br><br> <br>
   <footer><br><br>
-    <script src="js/app.js"></script>
+    <script src="JS/app.js"></script>
     &copy; Salmoon Cookies 2021
   </footer>
 </body>

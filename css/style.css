@@ -46,7 +46,7 @@ color: #753422;
 
 h2{
 
-    text-align: left;
+    text-align: center;
     font-size: 4ex;
     font-family: 'Times New Roman', Times, serif;
     color: #753422;
@@ -92,7 +92,7 @@ table, tr, th, td {
 }
 
 
-submit {
+button {
     display: block;
     border: none;
     font-size: 18px;
@@ -120,10 +120,11 @@ table {
   }
   
   table td, table th {
-    border: 1px solid #ddd;
+    border: 1px solid #D79771;
     padding: 8px;
-    color:black;
+    color:#753422;
     font-weight: bold;
+    text-align: Center;
   }
   
   table tr:nth-child(even){background-color: #f2f2f2;}
@@ -131,9 +132,9 @@ table {
   table tr:hover {background-color: #ddd;}
   
   table th {
-    padding-top: 12px;
-    padding-bottom: 12px;
-    text-align: left;
-    background-color: maroon;
-    color: white;
+    text-align: Center;
+    background-color: #FFEBC9;
+    color: #753422;
+    padding-top: 10px;
+    padding-bottom: 10px;
   }
