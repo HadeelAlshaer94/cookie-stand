@@ -1,22 +1,139 @@
-* {
-    color: salmon;
+body {
     font-family: Arial, Helvetica, sans-serif;
+    background-color: #FFEBC9;
+}
 
+header {
+    height: 100px;
+    margin-bottom: 30px;
+    background: #B05B3B;
+
+}
+
+nav {
+    margin: 0px auto;
+    width: 1100px;
+    
+}
+
+nav img {
+    margin-top: 15px;
+    margin-right: 30px;
+    float: left;
+}
+
+nav li {
+    display: inline-block;
+    margin-top: 45px;
+    margin-right: 70px;
+}
+
+p{
+font-family: 'Times New Roman', Times, serif;
+font-size: large;
+color: #753422;
+
+}
+
+h1{
+
+text-align: center;
+font-size: 5ex;
+font-family: 'Times New Roman', Times, serif;
+color: #753422;
+
+}
+
+h2{
+
+    text-align: left;
+    font-size: 4ex;
+    font-family: 'Times New Roman', Times, serif;
+    color: #753422;
+    
+    }
+
+main {
+    width: 960px;
+    margin: 0px auto;
+}
+
+a {
+    text-decoration: none;
+    color: #FFEBC9;
 
 }
 
 
-li {
-color: #777;
+
+section img {
+    width: 45%;
+    display: inline-block;  
+    margin-bottom: 30px;
 }
 
-h1, h2 {
-font-family: 'Righteous';
 
+
+footer {
+    margin: 0px auto;
+    background: #B05B3B;
+    height: 100px;
+    text-decoration: none;
+    color: #FFEBC9;
+    text-align: center;
+    font-size: small;
 }
 
-table, th, td {
+
+table, tr, th, td {
+    margin: auto;
     border: 1px solid black;
     border-collapse: collapse;
 }
 
+
+submit {
+    display: block;
+    border: none;
+    font-size: 18px;
+    color: maroon;
+    background: #B05B3B;
+    padding: 10px 30px;
+    border-radius: 3px;
+    transition: 350ms;
+    cursor: pointer;
+    font-family: Georgia;
+    color: #FFEBC9;
+    width: 20;
+    height: 15;
+}
+
+button:hover {
+    background: rgb(231, 221, 124);
+}
+
+/*Table style of w3schools*/
+table {
+    font-family: Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  table td, table th {
+    border: 1px solid #ddd;
+    padding: 8px;
+    color:black;
+    font-weight: bold;
+  }
+  
+  table tr:nth-child(even){background-color: #f2f2f2;}
+  
+  table tr:hover {background-color: #ddd;}
+  
+  table th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: maroon;
+    color: white;
+  }
