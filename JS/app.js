@@ -9,6 +9,8 @@ let maxOpj = [65, 24, 38, 38, 16];
 let avgOpj = [6.3, 1.2, 3.7, 2.3, 4.6];
 let locationOpj = [];
 let totalofTotals = 0;
+
+
 // constructor function
 function Store(Locations, minOpj, maxOpj, avgOpj) {
     // Parameters
